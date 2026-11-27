@@ -1,0 +1,21 @@
+Hana V4.1 NotionNext adapter verification
+
+PASS: 11 JS/JSX source files parsed; Node syntax checks for CLI and standalone script.
+PASS: CSS parsing.
+PASS: mocked V4 -> V4.1 upgrade, backup of changed original files, existing asset preservation.
+PASS: customized-file conflict protection.
+PASS: original ShanHaiXiaRiYanHuoW.zip imported on a temporary mock project; extracted font
+      SHA-256 matched the supplied original exactly. Repeated import, wrong-font rejection,
+      and no-overwrite protection verified.
+PASS: Chromium standalone preview using the actual supplied font in memory:
+      font successfully loaded; homepage, blog, article and AI input inherit selected family;
+      stored preference restored in a fresh document using simulated storage;
+      reset background retains font; system option works; mobile settings button accessible.
+      No JavaScript runtime errors in this preview test.
+FIX: mobile header backdrop-filter no longer traps fixed bottom navigation.
+
+NOT RUN: real NotionNext project build / deployment, live Notion data,
+         end-to-end React integration, Netlify runtime, Xiaolai font download,
+         real WebGPU model download or inference.
+Font binaries are not distributed in this archive. Use the original font ZIP / TTF
+with the included local installer. Public-web-use authorization must be confirmed separately.

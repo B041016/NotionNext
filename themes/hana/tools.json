@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Notion",
+    "url": "https://www.notion.so/",
+    "category": "效率办公",
+    "description": "笔记、知识库与项目管理",
+    "mark": "N"
+  },
+  {
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "category": "设计灵感",
+    "description": "手绘风在线白板",
+    "mark": "E"
+  },
+  {
+    "name": "Squoosh",
+    "url": "https://squoosh.app/",
+    "category": "设计灵感",
+    "description": "浏览器内图片压缩与转换",
+    "mark": "S"
+  },
+  {
+    "name": "Coolors",
+    "url": "https://coolors.co/",
+    "category": "设计灵感",
+    "description": "配色灵感与色板生成",
+    "mark": "C"
+  },
+  {
+    "name": "MDN Web Docs",
+    "url": "https://developer.mozilla.org/zh-CN/",
+    "category": "开发工具",
+    "description": "Web 开发参考文档",
+    "mark": "M"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/",
+    "category": "开发工具",
+    "description": "开源项目与代码管理",
+    "mark": "G"
+  }
+]
